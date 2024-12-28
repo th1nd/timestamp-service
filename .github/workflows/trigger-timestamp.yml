@@ -21,5 +21,6 @@ jobs:
           #key: ${{ secrets.SSH_PRIVATE_KEY }}
           password: ${{ secrets.SSH_PASSWORD }}  # Use password instead of key
           port: 22
+          timeout: 60
           script: |
             sudo systemctl restart timestamp.service
