@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the file to store timestamps
-TIMESTAMP_FILE="/home/andromeda/projects/github-actions/timestamps.log"
+TIMESTAMP_FILE="/home/andromeda/projects/github-actions/timestamp-service/timestamps.log"
 
 # Get the current date and time
 CURRENT_TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
