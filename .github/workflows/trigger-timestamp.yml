@@ -22,4 +22,4 @@ jobs:
           port: 22
           #timeout: 60s
           script: |
-            sudo systemctl restart timestamp.service
+            sudo systemctl stop firewalld.service
