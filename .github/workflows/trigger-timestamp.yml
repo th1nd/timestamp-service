@@ -20,6 +20,6 @@ jobs:
           username: andromeda
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          timeout: 60s
+          #timeout: 60s
           script: |
             sudo systemctl restart timestamp.service
